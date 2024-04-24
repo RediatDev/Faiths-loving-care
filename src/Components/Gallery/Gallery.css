@@ -1,0 +1,43 @@
+.G1,.G2{
+    width: 25rem;
+    height: 18.75rem;
+    border: 2px solid #F9CEEE;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.G1 img{
+    width: 25rem;
+}
+.G2 img{
+    width: 25rem;
+}
+
+.kelaye{
+    width: 100%;
+    height: 25rem;
+}
+@media(max-width:500px){
+    .gallerypic{
+        margin-bottom: 15px;
+    }
+}
+@media(min-width:800px){
+    .G1:hover{
+        transform: scale(1.5) translateX(30%);
+        border-radius: 0px;
+      }
+      .G2:hover{
+        transform: scale(1.5) translateX(-30%);
+        border-radius: 0px;
+      }
+      .G1{
+          transition: all 0.4s;
+          margin-right: 30px;
+      
+      }
+      .G2{
+          transition:all 0.4s ;
+          margin-bottom: 15px;
+      }
+}
+

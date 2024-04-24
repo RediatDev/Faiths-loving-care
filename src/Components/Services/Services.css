@@ -1,0 +1,60 @@
+.sizing{
+    background-color:#F9CEEE ;
+    border:2px solid #6c757d ;
+    margin:40px;
+    padding:5px;
+    width: 100%;
+    font-family:'Kalam', cursive;;
+    font-weight: bold;
+    
+}
+
+.maincontService{
+
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.sizingg{
+    background-color:#F9CEEE ;
+    border:2px solid #6c757d ;
+    margin:40px;
+    padding: 4px;
+    width: 43%;
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+   
+}
+
+.S{
+    font-family: 'Kalam', cursive;
+    font-weight: bold;  
+}
+.spacing{
+    text-align:inherit;
+    font-size: 20px;
+}
+
+.serviceTitle{
+    font-weight: bolder;
+}
+@media(max-width:767px){
+   
+    .sizingg{
+      width: 100%;
+      margin: 0px ;
+    }
+    .subAkafi{
+        width: 80%;
+        margin:  0 auto;
+    }
+    .subAkafi2{
+        width:80% ;
+        margin: 0 auto;
+    }
+    .sizing{
+        margin:10px 0px;
+    }
+
+}
+

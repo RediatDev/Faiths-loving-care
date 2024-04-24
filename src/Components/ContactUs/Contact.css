@@ -1,0 +1,168 @@
+
+.cont{
+    background-color:#F9CEEE;
+    height: 25rem;
+    flex-direction: column;
+    width: 21.8rem;
+    font-weight: bold;
+    border-radius: 15px;
+    margin: 2rem auto;
+}
+
+input[type=submit]{
+    background-color:#F9CEEE;
+    border: 1px solid #444;
+    margin-top: 1.875rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+input[type=submit]:hover{
+  
+    background-color:#DF6589FF;
+    border: 1px solid #444;
+}
+
+input[type=submit]:active{
+    border: 2px solid   #fe8402;
+}
+h4{
+    color: rgb(0, 162, 181);;
+}
+h3{
+    text-decoration: underline;
+}
+.location{
+    height: 25rem;
+    width: 21.8rem;
+    border-radius: 15px;
+    margin: 2rem auto;
+    border: 2px solid #F9CEEE ;
+}
+.for{
+    display: flex;
+    flex-direction: column;
+
+}
+.located{
+    margin: 2rem 0rem;
+}
+input{
+    border-radius: 5px;
+    border: 0px;
+    width: 20.625rem;
+    height: 1.875rem;
+    margin: 5px 0px;
+}
+
+button{
+    width: 6.25rem;
+    border-radius: 5px;
+    margin-top: 15px;
+    border: none;
+    font-weight: bold;
+
+}
+button:hover{
+    border: 3px solid black;
+    color: white;
+    font-weight: bold;
+}
+button:active{
+    background-color:#da7000;
+    border: 2px solid #007bff; ;
+}
+textarea{
+    resize: none;
+    border-radius: 5px;
+    width:20.625rem ;
+}
+
+.linkToMap{
+    font-weight: bold;
+    color: black;
+}
+.linkToMap:hover{
+    color: rgb(0, 162, 181);;
+}
+
+.imgContact{
+    margin-top: 30px;
+    width: 6.25rem;
+    height: 6.25rem;
+    border: 1px solid #F9CEEE;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.contactText{
+    font-family:'Dancing Script', cursive;
+    font-weight:bolder;
+    font-size:2.5rem ;
+    padding-top: 3rem;
+
+}
+
+.disnon{
+    display: none;
+}
+.disnow{
+      display: block;
+      font-size: 20px;
+      font-family:'Dancing Script', cursive;
+      color: black ;
+      font-weight: bolder;
+      text-align: center;
+
+}
+
+@media (min-width:700px) and (max-width:912px) {
+    .cont{
+        background-color:#F9CEEE;
+        height: 25rem;
+        flex-direction: column;
+        width: 21.8rem;
+        font-weight: bold;
+        border-radius: 15px;
+        margin: 2rem 10px;
+    }
+}
+
+@media(max-width:400px){
+    .mainContact{
+        margin: 0 auto;
+    }
+
+    .cont{
+        background-color:#F9CEEE;
+        height: 25rem;
+        flex-direction: column;
+        width: 18.8rem;
+        font-weight: bold;
+        border-radius: 15px;
+        margin: 2rem auto;
+    }
+    textarea{
+     
+        width: 17rem;
+    }
+    input{
+        border-radius: 5px;
+        border: 0px;
+        width: 17rem;
+        height: 1.875rem;
+        margin: 5px 0px;
+    }
+    .location{
+        width: 17rem;
+    }
+    .imgContact{
+        display: none;
+    }
+}
+
+.mainContact{
+    min-height: 100vh;
+}
+.contactakafi{
+    padding-top: 5rem;
+}

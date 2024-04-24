@@ -1,0 +1,29 @@
+.serviceBox{
+    height: 10rem;
+    width: 20rem;
+    background-color: #F9CEEE;
+    border: #444;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px;
+    font-family: 'Kalam', cursive;
+    font-weight: bolder;
+}
+.akafileService{
+    word-spacing: none;
+}
+.serviceTypee{
+    font-family:'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: 1.75rem;
+}
+.mainService{
+    width: 70%;
+    margin: auto auto;
+}
+.noblue{
+    text-decoration: none;
+    color: #444;
+
+}
+

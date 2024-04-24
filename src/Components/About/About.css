@@ -1,0 +1,26 @@
+.forJustify{
+    text-align: justify;
+}
+
+.titles{
+    text-decoration: underline;
+    color: rgb(0, 162, 181);
+    font-weight: bold;
+    font-size:25px ;
+    margin-top: 10px ;
+  
+}
+.mainAbout{
+    min-height: 100vh;
+    margin-top: 20px;
+    width: 80%;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 20px;
+   
+}
+
+.tsehufe{
+    font-family: 'Kalam', cursive;
+    text-align: left;
+}

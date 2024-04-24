@@ -1,0 +1,34 @@
+p{
+    text-align: justify;
+}
+
+.frontPic{
+    border-radius: 0.94rem;
+}
+.feels{
+    height:5.2rem;
+    font-size: 4.375rem;
+    font-family: 'Dancing Script', cursive;
+}
+.faith{ 
+    font-family: 'Dancing Script', cursive;
+}
+
+.frontTextDetail{
+        font-size: 1.25rem;
+        color: #333;
+        font-family: 'Kalam', cursive;
+        font-weight: bold;
+        text-align:center;
+}
+
+.family2{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.frontTextContainer{
+    width: 90%;
+    margin: auto auto;
+
+}

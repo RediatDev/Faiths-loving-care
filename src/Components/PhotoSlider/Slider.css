@@ -1,0 +1,16 @@
+.Carousel{
+    height: 40rem;
+    color: #444;
+}
+
+.faith{
+    font-family: 'Dancing Script', cursive;}
+
+ .carousel-item {
+        transition: transform 2.6s ease-in-out;
+      }
+      
+ .carousel-fade .active.carousel-item-start,
+ .carousel-fade .active.carousel-item-end {
+        transition: opacity 0s 2.6s;
+      }

@@ -1,0 +1,122 @@
+.a{
+    border-radius: 15px;
+    margin-left:2rem;
+    width: 12rem;
+}
+
+.nave{
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #F9CEEE;
+    height: 5.625rem;
+    z-index: 1;
+    width: 100%;
+}
+
+.Headerlogo{
+    width: 9.375rem;
+    height: 9.375rem;
+}
+.nav{
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.sideSpace{
+    margin-right:1.25rem;
+}
+.sideSpace:active{
+   border: 1px solid wheat;
+   border-radius: 5px;
+   color: black;
+}
+.sideSpace:hover{
+    color :white !important;
+    border-radius:5px !important;
+
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+.Headerlogo{
+    width: 6.875rem;
+    height: 4.875rem;
+    border-radius:15px ;
+    padding: 0.125rem;
+}
+
+@media(max-width:768px){
+    .nav{
+    background-color:#F9CEEE;
+    border-radius: 0.9375rem;
+    padding-left: 1.25rem;
+    padding-bottom: 0.3125rem;
+    }
+}
+
+.glow-on-hover{
+   
+    width: 12.5rem;
+    height: 3.125rem;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 0.625rem;
+    margin-left: 3rem;
+}
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: #F9CEEE;
+    border: 1px solid #333;
+}
+button:active{
+    background-color: #F9CEEE !important;
+}
+
